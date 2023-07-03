@@ -11,18 +11,20 @@
   list-style: none;
   padding: 10px;
   background-color: transparent;
-  color: rgb(0, 0, 0);
+  color: white;
   position: relative;
+  z-index: 1;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
-  margin: auto;
   align-items: center;
+  min-height: 400px;
   height: 90vh;
+  width: 100%;
+  top: 0;
   justify-content: center;
-  background-image: url();
   line-height: 3.5rem;
   background-image: linear-gradient(
       to top,
@@ -32,12 +34,11 @@
     ),
     url(https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media//banner.jpg);
   color: white;
-  /* position: absolute; */
+  position: absolute;
 }
 
 .form {
   display: flex;
-  justify-content: center;
 }
 
 .intro h1 {
